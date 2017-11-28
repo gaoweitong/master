@@ -1,0 +1,48 @@
+.dl {
+  width: 100%;
+  display: flex;
+  padding: .1rem;
+  box-sizing: border-box;
+}
+.dl dt {
+  width: 1rem;
+}
+.dl dt img {
+  width: 100%;
+  height: auto;
+}
+.dl dd {
+  flex: 1;
+  padding-left: .05rem;
+  padding-right: .05rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+.dl dd h3 {
+  font-size: .14rem;
+  padding-bottom: .04rem;
+  color: #000;
+  font-weight: bold;
+}
+.dl dd p {
+  color: #ddd;
+  font-size: .12rem;
+  /* overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  padding-right: .04rem;
+  box-sizing: border-box; */
+}
+.dl dd .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.dl dd .bottom span {
+  word-spacing: .02rem;
+  font-size: .12rem;
+}
+.dl dd .bottom span strong {
+  color: red;
+  font-size: .16rem;
+}

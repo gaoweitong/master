@@ -1,0 +1,62 @@
+.box{
+  height:100%;
+  width:100%;
+}
+
+.contentBox,.labelBox{
+  height:200px;
+  width:98%;
+  margin:0 auto;
+  border:1px solid #ccc;
+  box-sizing:border-box;
+  padding:10px;
+}
+.labelBox li{
+  color: #333333;
+  display: block;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  margin: 0 10px 10px 0;
+  padding: 0 10px 0 5px;
+  white-space: nowrap;
+  border:1px dashed purple;
+}
+.contentBox li{
+  color: #333333;
+  display: block;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  margin: 0 10px 10px 0;
+  padding: 0 10px 0 5px;
+  white-space: nowrap;
+  border:1px dashed purple;
+}
+.contentBox li .del{
+  height:15px;
+  width:15px;
+  background:#ff2a61;
+  border-radius: 50%;
+  color: #fff;
+  margin-left:10px;
+}
+
+.fromBox{
+  display: inline-block;
+  height:30px;
+  width:100%;
+  margin: 20px 0;
+}
+.fromBox .buttonbox{
+  display: inline-block;
+  width:80px;
+  height:90%;
+  border:none;
+  border-radius: 8px;
+  background: purple;
+  color: #fff;
+  margin:0 2px;
+}
